@@ -6,7 +6,7 @@ function App() {
         <a href="/">VaiVin</a>
       </header>
       <main>
-        Lista de Produtos
+        Lista de Produtos 
       </main>
     </div>
   );
