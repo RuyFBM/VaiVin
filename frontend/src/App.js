@@ -26,7 +26,7 @@ function App() {
                 <Link to="/cart" className="nav-link">Carrinho
                   {cart.cartItems.length > 0 && (
                     <Badge pill bg="danger">
-                      {cart.cartItems.length}
+                      {cart.cartItems.reduce((a, c) => a + c.quantity, 0 )}
                     </Badge>
                   )}
                 </Link>
@@ -35,7 +35,7 @@ function App() {
           </Navbar>
         </header>
         <main>
-          <Container className="mt-3">
+          <Container className="mt-4">
             <Routes>
               <Route path="/product/:slug" element={<ProductScreen />} />
               <Route path="/" element={<HomeScreen />} />
@@ -43,7 +43,7 @@ function App() {
           </Container>
         </main>
         <footer>
-          <div className="text-center">Todos os direitos reservados &copy;VaiVin</div>
+          <div className="text-center">Todos os direitos reservados: &copy;VaiVin</div>
         </footer>
       </div>
     </BrowserRouter>

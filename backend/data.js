@@ -1,18 +1,20 @@
 const data = {
     products: [
         {
+            _id:'1',
             name:'Catena Malbec',
             slug:'catena-savion',
             category:'argentinos',
             image:'/images/vinho-exemplo.png',
             price: 80, 
-            countInStock: 0,
+            countInStock: 3,
             brand:'Catena',
             rating: 1.8,
             numReviews: 20,
             description:'vinho de extrema qualidade!'
         },
         {
+            _id:'2',
             name:'Catena Malbec',
             slug:'catena-malbec',
             category:'argentinos',
@@ -23,7 +25,9 @@ const data = {
             rating: 2.8,
             numReviews: 3,
             description:'vinho de extrema qualidade!'
-        },  {
+        },  
+        {
+            _id:'3',
             name:'Catena Malbec',
             slug:'catena-branco',
             category:'argentinos',
@@ -34,7 +38,9 @@ const data = {
             rating: 3.2,
             numReviews: 48,
             description:'vinho de extrema qualidade!'
-        },  {
+        },  
+        {
+            _id:'4',
             name:'Catena Malbec',
             slug:'catena-tinto',
             category:'argentinos',
