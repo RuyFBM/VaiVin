@@ -27,7 +27,7 @@ function App() {
           </Container>
         </main>
         <footer>
-          <div className="text-center">Todos os direitos reservados &copy;VaiVin</div>
+        <div className="text-center">Todos os direitos reservados &copy;VaiVin</div>
         </footer>
       </div>
     </BrowserRouter>
