@@ -31,7 +31,7 @@ export default function SigninScreen() {
                     </Button>
                 </div>
                 <div className="mb-3">
-                    Novo Cliente?{'    '}
+                    Novo Cliente?{' '}
                     <Link to={`/signin?redirect=${redirect}`}>Crie sua conta</Link>
                 </div>
             </Form>
