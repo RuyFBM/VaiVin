@@ -1,7 +1,7 @@
 const data = {
     products: [
         {
-            _id:'1',
+            //_id:'1',
             name:'Catena Savion',
             slug:'catena-savion',
             category:'argentinos',
@@ -14,7 +14,7 @@ const data = {
             description:'vinho de extrema qualidade!'
         },
         {
-            _id:'2',
+            //_id:'2',
             name:'Catena Malbec',
             slug:'catena-malbec',
             category:'argentinos',
@@ -27,7 +27,7 @@ const data = {
             description:'vinho de extrema qualidade!'
         },  
         {
-            _id:'3',
+            //_id:'3',
             name:'Catena Branco',
             slug:'catena-branco',
             category:'argentinos',
@@ -40,7 +40,7 @@ const data = {
             description:'vinho de extrema qualidade!'
         },  
         {
-            _id:'4',
+            //_id:'4',
             name:'Catena Tinto',
             slug:'catena-tinto',
             category:'argentinos',
